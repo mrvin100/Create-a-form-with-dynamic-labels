@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-widthm initial-scale=1.0">
+	
+<!--font awesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!--custom css file link-->
+<link rel="stylesheet" href="css/styles.css">	
+	
+<title>Create a form with dynamic labels - JeanDoe</title>
+</head>
+
+<body>
+<!-- section start-->
+<form action="" method="post">
+	<div class="fas fa-question-circle help" title="help" id="help"></div>
+	<div class="input_form">
+		<input type="email" name="email" id="email" placeholder="enter your email">
+		<label for="email">email</label>
+	</div>
+	<div class="input_form">
+		<input type="password" name="password" id="password" placeholder="password">
+		<label for="password">password</label>
+	</div>
+	<p class="message" id="message">don't have account, please <span class="color" title="register now">register</span></p>
+	<div class="submit_form">
+		<button type="submit">login</button>
+	</div>
+</form>
+<!-- javascript main file-->
+<script src="js/main.js"></script>
+</body>
+</html>
